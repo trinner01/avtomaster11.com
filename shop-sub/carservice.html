@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+						<!--jQuery-->
+		<script src="../common_jscripts/jquery/jquery-1.7.min.js"></script>
+		<link href="../css/pt.sans-2.css" rel="stylesheet" type="text/css"/>
+		<title>www.shop.avtomaster11.com - Cайт обслуживается компанией "Платформа ABCP". Разработка и создание интернет магазина автозапчастей.</title>
+	<link rel="canonical" href="http://avtomaster11.com/shop-sub/carservice" />
+		<style>
+			@media (max-width: 991px){
+				.fr-hidden-sm {
+					display: none !important;
+				}
+				.fr-hidden-xs {
+					display: none !important;
+				}
+			}
+			html,
+			body {
+				margin: 0;
+				padding: 0;
+				height: 100%;
+			}
+			body {
+				background: #e3f8ff;
+				color: #656565;
+				font-weight: normal;
+				font: 13px Arial, sans-serif;
+			}
+			.siteWrapper {
+				height: 100%;
+				min-height: 100%;
+				margin: 0 auto;
+				position: relative;
+				display: -webkit-flex;
+				display: -moz-flex;
+				display: -ms-flexbox;
+				display: -ms-flex;
+				display: flex;
+				-ms-box-orient: vertical;
+				box-orient: vertical;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+			}
+			.layout {
+				max-width: 1100px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			@media (max-width: 1130px) {
+				.layout {
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+			}
+			fieldset,
+			img {
+				border: 0;
+				outline: none;
+			}
+			a {
+				color: #0687b1;
+				outline: none;
+			}
+			a:hover {
+				text-decoration: none;
+			}
+			a:hover,
+			a:active {
+				outline: 0;
+			}
+			button,
+			html input[type="button"],
+			input[type="reset"],
+			input[type="submit"] {
+				cursor: pointer;
+				-webkit-appearance: button;
+			}
+			textarea {
+				overflow: auto;
+				vertical-align: top;
+			}
+			button,
+			input[type=submit],
+			input[type=button] {
+				overflow: visible;
+			}
+			input,
+			textarea {
+				-webkit-border-radius: 0;
+			}
+			ul,
+			ul li {
+				color: #556069;
+				list-style-position: inside;
+			}
+			p {
+				color: #556069;
+				font-size: 13px;
+				margin-top: 0;
+				line-height: 1.5;
+			}
+			h1,
+			h2,
+			h3 {
+				color: #004669;
+			}
+			h1 {
+				margin: 0 0 20px;
+				font-size: 25px;
+				font-weight: 500;
+				letter-spacing: -0.8px;
+				font-family: Roboto, Arial, sans-serif;
+				color: #004669;
+			}
+			h2 {
+				color: #004669;
+				font: 500 18px Roboto, Arial, sans-serif !important;
+				margin: 0 0 10px;
+			}
+			.head {
+				background: #e3f8ff;
+				width: 100%;
+				-webkit-flex-shrink: 0;
+				-moz-flex-shrink: 0;
+				-ms-flex-shrink: 0;
+				flex-shrink: 0;
+				box-sizing: border-box;
+			}
+			.head * {
+				box-sizing: border-box;
+			}
+			.head .layout {
+				padding-top: 30px;
+				padding-bottom: 30px;
+				display: -webkit-flex;
+				display: -moz-flex;
+				display: -ms-flexbox;
+				display: -ms-flex;
+				display: flex;
+				-webkit-align-items: center;
+				-moz-align-items: center;
+				-ms-align-items: center;
+				align-items: center;
+				-webkit-justify-content: space-between;
+				-moz-justify-content: space-between;
+				-ms-justify-content: space-between;
+				justify-content: space-between;
+			}
+			@media (max-width: 767px) {
+				.head .layout {
+					-webkit-flex-direction: column;
+					-moz-flex-direction: column;
+					-ms-flex-direction: column;
+					flex-direction: column;
+					-webkit-justify-content: center;
+					-moz-justify-content: center;
+					-ms-justify-content: center;
+					justify-content: center;
+				}
+			}
+			.logo a {
+				text-decoration: none;
+			}
+			.logo img {
+				display: block;
+			}
+			.headMainPhone {
+				color: #004669;
+				font-weight: bold;
+				line-height: 1;
+			}
+			.headMainPhone a {
+				color: inherit;
+				text-decoration: none;
+				cursor: default;
+			}
+			.headMainPhone {
+				font-size: 28px;
+				margin-left: auto;
+				margin-right: 20px;
+			}
+			@media (max-width: 767px) {
+				.headMainPhone {
+					margin-right: auto;
+					margin-bottom: 10px;
+				}
+			}
+			.headMainPhone__subTitle {
+				color: #556069;
+				font-weight: normal;
+				font-size: 14px;
+				margin-top: 7px;
+				text-align: right;
+			}
+			.baseContent {
+				width: 100%;
+				-webkit-flex-shrink: 0;
+				-moz-flex-shrink: 0;
+				-ms-flex-shrink: 0;
+				flex-shrink: 0;
+				-webkit-flex-grow: 1;
+				-moz-flex-grow: 1;
+				-ms-flex-grow: 1;
+				flex-grow: 1;
+				padding: 28px;
+				max-width: 1100px;
+				margin: 0 auto 20px;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				background: #fff;
+			}
+			@media (max-width: 1024px) {
+				.baseContent {
+					padding-left: 15px;
+					padding-right: 15px;
+				}
+			}
+			@media (max-width: 767px) {
+				.baseContent {
+					padding: 10px 15px;
+				}
+			}
+			.contentBlock {
+				color: #556069;
+			}
+			.contentBlock:before,
+			.contentBlock:after {
+				content: " ";
+				display: table;
+			}
+			.contentBlock:after {
+				clear: both;
+			}
+			.contentBlock img {
+				max-width: 100%;
+				height: auto;
+			}
+			.contentTop,
+			.rightAside{
+				display: inline-block;
+				vertical-align: top;
+			}
+			.contentTop{
+				margin: 0 0 20px 0;
+				width: 60%;
+			}
+			.rightAside{
+				position: relative;
+				width: 40%;
+			}
+			.closeImg{
+				max-width: 60%;
+				position: relative;
+				float: right;
+				margin-right: 20px;
+			}
+			div.contentTop p{
+				font: normal 41px arial, sans-serif;
+				margin-bottom: 0;
+				margin-top: 25px;
+				color: #505050;
+			}
+			div.contentTop .abcpBlock{
+				margin: 40px 0 0;
+			}
+			div.contentTop .abcpBlock a{
+				font: 19px 'arial';
+			}
+			.cols{
+				margin: 0 0 60px;
+			}
+			@media (max-width: 767px) {
+				div.contentTop p {
+					font-size: 30px;
+				}
+				div.contentTop,
+				.rightAside{
+					display: block;
+					text-align: center;
+					width: 100%;
+				}
+				.closeImg{
+					float: none;
+				}
+			}
+			p.forMyCarBlock{
+				clear: both;
+				color: #505050;
+				font: bold 18px/24px 'arial';
+				padding: 30px 0 0;
+				border-top: 1px solid #e1e3e6;
+				text-align: center;
+			}
+			div.content p a{
+				color: #1171B6;
+				font: normal 16px/24px 'arial';
+			}
+			.footer {
+				background: #1A232C;
+				position: relative;
+				min-height: 70px;
+				border-bottom: 4px solid #10B6EA;
+				width: 100%;
+				-webkit-flex-shrink: 0;
+				-moz-flex-shrink: 0;
+				-ms-flex-shrink: 0;
+				flex-shrink: 0;
+				box-sizing: border-box;
+			}
+			.footer * {
+				box-sizing: border-box;
+			}
+			.footer .copyright {
+				padding: 15px 0 10px 0;
+				color: #F3F3F3;
+				font-size: 9pt;
+				line-height: 14pt;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="siteWrapper">
+			<header class="head">
+				<div class="layout">
+					<div class="logo">
+						<a href="https://abcp.ru/" title="ABCP - Платформа для интернет-магазина автозапчастей">
+							<img  alt="ABCP - Платформа для интернет-магазина автозапчастей"/>
+						</a>
+					</div>
+					<div class="headMainPhone">
+						<a href="tel:+7(495)668-13-74">+7 (495) 668-13-74</a>
+						<div class="headMainPhone__subTitle">Москва</div>
+					</div>
+				</div>
+			</header>
+			<div class="baseContent">
+				<div class="contentBlock layout">
+					<div class="cols">
+						<div class="contentTop">
+							<p>Сайт временно закрыт</p>
+							<div class="abcpBlock">
+								<a href="https://abcp.ru/">Разработать, создать и купить интернет-магазин автозапчастей</a>
+							</div>
+						</div><!--
+							--><div class="rightAside">
+							<img src="../common.images/close_new.png" class="closeImg" alt="Сайт закрыт. Платформа ABCP." title="Сайт www.shop.avtomaster11.com закрыт. Платформа ABCP.">
+						</div>
+					</div>
+					<p class="forMyCarBlock">
+						Найти и купить необходимые автозапчасти Вы можете на сайте <br/><br/>
+						<a href="https://4mycar.ru/"><img src="../images/logo_letter.png"/></a>
+					</p>
+				</div>
+			</div>
+			<footer class="footer">
+				<div class="layout">
+					<div class="copyright">
+						<a rel="nofollow" href="https://nodasoft.com/" style="text-decoration: none;">NodaSoft</a><br/>All rights reserved
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
