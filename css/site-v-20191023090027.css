@@ -2323,6 +2323,9 @@ div.wb-store-item {
     .wb-map {
         max-height: 350px;
     }
+    #wb_element_instance59.wb_element {
+        display: none;
+    }
 }
 
 @media (min-height: 450px) {
@@ -2358,6 +2361,12 @@ div.wb-store-item {
 @media (min-width: 768px) {
     .wb-map {
         max-height: none;
+    }
+}
+
+@media (min-width: 992px) {
+    #wb_element_instance59.wb_element {
+        display: block;
     }
 }
 
