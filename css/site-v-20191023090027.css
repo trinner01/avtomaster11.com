@@ -2319,6 +2319,9 @@ div.wb-store-item {
     max-height: 300px;
 }
 
+
+/* Адаптация */
+
 @media (min-height: 400px) {
     .wb-map {
         max-height: 350px;
