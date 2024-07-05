@@ -2326,6 +2326,12 @@ div.wb-store-item {
     #wb_element_instance59.wb_element {
         display: none;
     }
+    #wb_element_instance42.wb_element {
+        display: none;
+    }
+    #wb_element_instance43.wb_element {
+        display: none;
+    }
 }
 
 @media (min-height: 450px) {
@@ -2362,10 +2368,19 @@ div.wb-store-item {
     .wb-map {
         max-height: none;
     }
+    #page_7 {
+        padding: 30px;
+    }
 }
 
 @media (min-width: 992px) {
     #wb_element_instance59.wb_element {
+        display: block;
+    }
+    #wb_element_instance42.wb_element {
+        display: block;
+    }
+    #wb_element_instance43.wb_element {
         display: block;
     }
 }
