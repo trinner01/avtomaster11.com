@@ -2427,6 +2427,16 @@ div.wb-store-item {
     min-height: 100vh;
 }
 
+#vk_group_text1 {
+    color: #fccf1b;
+    font: normal bold 48px 'Open Sans', sans-serif;
+}
+
+#vk_group_text2 {
+    color: #ffffff;
+    font: normal bold 18px 'Open Sans', sans-serif;
+}
+
 body>iframe[src~="skype"],
 body>iframe[src*="skype"] {
     display: none;
